@@ -1,0 +1,22 @@
+.body{
+	height: 600px;
+	width: 600px;
+}
+.display{
+	width: 200px;
+	height: 200px;
+	background: gray;
+	margin: 10px;
+	padding: 5px;
+
+
+}
+
+.keyboard{
+	background: #38fcd2;
+}
+.key{
+	height: 40px;
+	width: 40px;
+	border-radius: 30px;
+}
