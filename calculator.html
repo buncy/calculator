@@ -3,34 +3,34 @@
 <head>
 
 <link rel="stylesheet" type="text/css" href="calculator.css">
-
+<script src="calculator.js" defer></script>
 </head>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <body>
     <div class="calculator-grid">
         <div class="display">
-            <div class="previous-operand"></div>
-            <div class='current-operand'></div>
+            <div data-previous-operand class="previous-operand"></div>
+            <div data-current-operand class='current-operand'></div>
         </div>
     
    
-            <button class="key" id="allc">AC</button>
-            <button class="key" id="clear">c</button>
-            <button class="key" id="÷">÷</button>
-    		<button class="key" id="1">1</button>
-    		<button class="key" id="2">2</button>
-    		<button class="key" id="3">3</button>
-    		<button class="key" id="plus">+</button>
-    		<button class="key" id="4">4</button>
-    		<button class="key" id="5">5</button>
-    		<button class="key" id="6">6</button>
-    		<button class="key" id="minus">-</button>
-    		<button class="key" id="7">7</button>
-    		<button class="key" id="8">8</button>
-    		<button class="key" id="9">9</button>
-    		<button class="key" id="times">*</button>
-    		<button class="key" id=".">.</button>
-    		<button class="key" id="0">0</button>
-    		<button class="key" id="equals">=</button>
+            <button data-all-clear class="key" id="allc">AC</button>
+            <button data-delete class="key" id="clear">c</button>
+            <button data-operation class="key" id="÷">÷</button>
+    		<button data-number class="key" id="1">1</button>
+    		<button data-number class="key" id="2">2</button>
+    		<button data-number class="key" id="3">3</button>
+    		<button data-operation class="key" id="plus">+</button>
+    		<button data-number class="key" id="4">4</button>
+    		<button data-number class="key" id="5">5</button>
+    		<button data-number class="key" id="6">6</button>
+    		<button data-operation class="key" id="minus">-</button>
+    		<button data-number class="key" id="7">7</button>
+    		<button data-number class="key" id="8">8</button>
+    		<button data-number class="key" id="9">9</button>
+    		<button data-operation class="key" id="times">*</button>
+    		<button data-number class="key" id=".">.</button>
+    		<button data-number class="key" id="0">0</button>
+    		<button data-equals class="key" id="equals">=</button>
     </div>
 </body>

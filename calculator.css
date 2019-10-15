@@ -26,11 +26,11 @@ body{
 	border-radius: 30px;
 	border: 1px solid white;
 	outline: none;
-	
+	margin: 3px;	
 }
 
 .calculator-grid > button:hover{
-	background-color:rgba(rgb(165, 121, 40), rgb(168, 121, 35), rgb(161, 118, 37), .75) ;
+	background-color:rgba(193, 196, 37, 0.87) ;
 	
 }
 
