@@ -32,7 +32,7 @@ this.currentOperand = ''
 
 compute(){
 let computation
-const per = parseFloat(this.previousOperand)
+const prev = parseFloat(this.previousOperand)
 const current= parseFloat(this.currentOperand)
 if(isNaN(prev) || isNaN(current))return
 switch(this.operation){
@@ -89,22 +89,12 @@ if(this.operation != null){
     this.previousOperandTextElement.innerText = ''
 }
 }
-
-
-
-
-
-
-
-
-
-
 }
 const numberButtons = document.querySelectorAll('[data-number]');
 const operationButtons = document.querySelectorAll('[data-operation]')
 const equalsButton = document.querySelector('[data-equals]');
 const deleteButton = document.querySelector('[data-delete]');
-const allClearButton = document.querySelectorAll('[data-allclear]');
+const allClearButton = document.querySelector('[data-all-clear]');
 const previousOperandTextElement = document.querySelector('[data-previous-operand]')
 const currentOperandTextElement = document.querySelector('[data-current-operand]')
 
@@ -121,7 +111,7 @@ numberButtons.forEach(button =>{
 
 operationButtons.forEach(button =>{
     button.addEventListener('click' , ()=>{
-        calculator.appendOperation(button.innerText)
+        calculator.chooseOperation(button.innerText)
         calculator.updateDisplay()
     })
 })

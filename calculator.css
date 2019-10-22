@@ -24,7 +24,7 @@ body{
 	color: white;
 	background-color: black;
 	border-radius: 30px;
-	border: 1px solid white;
+	border: 2px solid rgba(89, 38, 207, 0.87);
 	outline: none;
 	margin: 3px;	
 }
@@ -48,8 +48,8 @@ body{
 	padding: 10px;
 	word-wrap: break-word;
 	word-break: break-all;
-
-
+	border:3px solid #33e862;
+	border-radius: 10px;
 }
 
 
